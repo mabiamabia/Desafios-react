@@ -1,12 +1,12 @@
 
 function HelloWorld() {
 
+  return (
+    <>
+      <h2>HelloWorld</h2>
 
-    return (
-        <p>
-            Hello, World!
-        </p>
-    )
+    </>
+  )
 }
 
 export default HelloWorld;
