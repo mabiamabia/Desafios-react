@@ -1,6 +1,6 @@
 import HelloWorld from './components/HelloWorld'
 import HelloName from './components/Name'
-import Date from './components/Date'
+import Profile from './components/Profile'
 import './App.css'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <HelloName name={"Mabiá"}/>
 
       <h2>3 - Criando um componente com três props</h2>
-      <Date day={"3"} month={"12"} year={"1992"}/>
+     <Profile name="João" age="30" job="dev" />
       </>
   )
   
