@@ -3,6 +3,8 @@ import HelloName from './components/Name'
 import Profile from './components/Profile'
 import './App.css'
 import Family from './components/Family'
+import ProfileClass from './components/ProfileClass'
+import Counter from './components/Counter'
 
 function App() {
 
@@ -26,6 +28,12 @@ function App() {
 
       <h2>4 - Composição de componentes</h2>
       <Family members={members} />
+
+      <h2>5 - Componentes de Classe</h2>
+      <ProfileClass name="Rodrigo" age={36} job="Monitor" />
+
+      <h2>6 - Componente com estado</h2>
+      <Counter />
 
     </>
   )
